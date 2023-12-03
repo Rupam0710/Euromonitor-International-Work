@@ -1,1 +1,1 @@
-This repository contains all the works of Euromonitor International.
+This repository contains all the works of Euromonitor International. All the projects are placed in it in different branches. All have its specific name and Number. You can view the projects code by visiting different branches. Thank You!!!
