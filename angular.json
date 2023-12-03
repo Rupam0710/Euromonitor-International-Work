@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Angular-TodoApp": {
+    "movie-voting-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-todo-app",
+            "outputPath": "dist/movie-voting-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Angular-TodoApp:build:production"
+              "buildTarget": "movie-voting-app:build:production"
             },
             "development": {
-              "buildTarget": "Angular-TodoApp:build:development"
+              "buildTarget": "movie-voting-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Angular-TodoApp:build"
+            "buildTarget": "movie-voting-app:build"
           }
         },
         "test": {
