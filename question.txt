@@ -1,0 +1,2 @@
+
+Shopping Cart Application: Create a simple shopping cart application using TypeScript. Users should be able to add products to the cart, view the cart, update quantities, and calculate the total cost. 
