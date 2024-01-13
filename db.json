@@ -1,0 +1,196 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Admin User",
+      "password": "Fifaworldcup2002@",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "Zampa20",
+      "name": "Zams",
+      "password": "Fifaworldcup2002@",
+      "email": "z@gmail.com",
+      "gender": "female",
+      "role": "staff",
+      "isactive": true
+    },
+    {
+      "id": "Cristiano7",
+      "name": "Cristiano",
+      "password": "RealMadrid7@",
+      "email": "cr7@hotmail.com",
+      "gender": "male",
+      "role": "quality",
+      "isactive": true
+    },
+    {
+      "id": "Rakesh00",
+      "name": "Rakesh",
+      "password": "Yadav23@",
+      "email": "rk12@gmail.com",
+      "gender": "male",
+      "role": "staff",
+      "isactive": true,
+      "tasks": [
+        {
+          "firstname": "Rupam",
+          "lastname": "Pal",
+          "email": "rp@gmail.com",
+          "duedate": "2024-01-16T18:30:00.000Z",
+          "gender": "male",
+          "category": "Personal",
+          "company": "Euro",
+          "task": "Presentation",
+          "status": "In Progress",
+          "id": "#001"
+        }
+      ]
+    },
+    {
+      "id": "ABD07",
+      "name": "AB Devilliers",
+      "password": "Fifaworldcup2002@",
+      "email": "ab@gmail.com",
+      "gender": "male",
+      "role": "quality",
+      "isactive": false,
+      "tasks": [
+        {
+          "firstname": "Virat",
+          "lastname": "Kolhi",
+          "email": "vk18@gmail.com",
+          "duedate": "2023-12-29T18:30:00.000Z",
+          "gender": "male",
+          "category": "Work",
+          "company": "India",
+          "task": "Score 100 hundreds",
+          "status": "Complete",
+          "id": "#001"
+        }
+      ]
+    },
+    {
+      "id": "Gareth00",
+      "name": "gareth bale",
+      "password": "Fifaworldcup2002@",
+      "email": "gb11@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    }
+  ],
+  "role": [
+    {
+      "code": "staff",
+      "name": "Staff"
+    },
+    {
+      "code": "quality",
+      "name": "Quality"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "customer",
+      "name": "Customer"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    }
+  ],
+  "employees": [
+    {
+      "firstname": "Rupam",
+      "lastname": "Pal",
+      "email": "rupam48@gmail.com",
+      "duedate": "2024-01-01T18:30:00.000Z",
+      "gender": "male",
+      "category": "Travel",
+      "company": "Euromonitor International",
+      "task": "Travel to Ladakh",
+      "status": "Complete",
+      "id": 2
+    },
+    {
+      "firstname": "Cristiano",
+      "lastname": "Ronaldo",
+      "email": "cr7@gmail.com",
+      "duedate": "2023-12-24T18:30:00.000Z",
+      "gender": "male",
+      "category": "Work",
+      "company": "Al Nassr",
+      "task": "Win Ballon D Or",
+      "status": "Complete",
+      "id": 3
+    },
+    {
+      "firstname": "Alessa",
+      "lastname": "Healy",
+      "email": "alesa@yahoo.com",
+      "duedate": "2023-12-31T18:30:00.000Z",
+      "gender": "female",
+      "category": "Personal",
+      "company": "Australia",
+      "task": "Birth of Child",
+      "status": "In Progress",
+      "id": 5
+    },
+    {
+      "firstname": "Leo",
+      "lastname": "Messi",
+      "email": "lm10@gmail.com",
+      "duedate": "2024-02-13T18:30:00.000Z",
+      "gender": "male",
+      "category": "Work",
+      "company": "Inter Miami",
+      "task": "Win the League",
+      "status": "Not Yet Started",
+      "id": 7
+    },
+    {
+      "firstname": "Prety",
+      "lastname": "Zinta",
+      "email": "kingsPunjab@ipl.com",
+      "duedate": "2024-04-03T18:30:00.000Z",
+      "gender": "female",
+      "category": "Shopping",
+      "company": "Bollywood",
+      "task": "Buy Mercedes",
+      "status": "Not Yet Started",
+      "id": 8
+    },
+    {
+      "firstname": "Rohit",
+      "lastname": "Vikram",
+      "email": "rb11@gmail.com",
+      "duedate": "2023-12-30T18:30:00.000Z",
+      "gender": "male",
+      "category": "Shopping",
+      "company": "Meta",
+      "task": "Buy Iphone",
+      "status": "In Progress",
+      "id": 9
+    }
+  ]
+}
